@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-from worktest.src.email import check_email
+from src.email import check_email
 import pytest
 @pytest.mark.parametrize('email, expected_email',
                          (('Helloworld@.ru', False ),

@@ -1,4 +1,4 @@
-from worktest.src.polindrom import solve
+from src.polindrom import solve
 import pytest
 
 @pytest.mark.parametrize('phrases, true_list',

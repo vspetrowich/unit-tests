@@ -1,5 +1,5 @@
 
-from worktest.src.discrim import solution
+from src.discrim import solution
 import pytest
 
 @pytest.mark.parametrize('a, b, c, list1',
